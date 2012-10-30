@@ -1,9 +1,9 @@
 <?php
 defined('_JEXEC') or die('Direct Access to this location is not allowed.');
 
-class ModSlideshowHelper
+abstract class ModMsclaaHelper
 {
-    public function getItems($_xml_data)
+    public static function getItems($_xml_data)
     {
         $return = array();
         $xml = new SimpleXMLElement($_xml_data);
@@ -16,5 +16,18 @@ class ModSlideshowHelper
             }
         }
         return $return;
+    }
+
+    /**
+     * load css - javascript file.
+     *
+     * @param JParameter $params;
+     * @param JModule $module
+     * @return void.
+     */
+    public static function loadMediaFiles( $params, $module ){
+        $document = &JFactory::getDocument();
+        $document->addScript( JURI::root(true). '/modules/'.$module->module.'/assets/MSClass.js' );
+        $document->addStyleSheet( JURI::root(true). '/modules/'.$module->module.'/assets/style.css' );
     }
 }
