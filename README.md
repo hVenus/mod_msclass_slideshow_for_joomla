@@ -1,13 +1,11 @@
-mod_slideshow_joomla
+mod_msclass_slideshow_for_joomla
 
-这是一个用于joomla!的前台图片轮播模块
+这是一个用于joomla!的前台图片轮播/滚动模块
 
 特点：
-*XML配置文件
-*可设置区块大小
-*可设置图片链接
-*轮播的控制按钮，可随意切换到不同的内容。
-*鼠标事件,鼠标经过停止轮播。
+*使用MSClass.js做为js库，原生的js代码，无需jQuery,Mootools等js库支持。\r\n
+*可自行设置所有参数。\r\n
+
 
 System request: joomla 2.5 and up.
 
@@ -17,26 +15,7 @@ Install:
 3，编写XML文件，用于为模块提供显示所需的内容。
 4，刷新前台页面，查看最终效果。
 
-XML格式：
-<?xml version="1.0" encoding="utf-8"?>
-<slideshow>
-	<items>
-		<item>
-			<image>slideshow/3.jpg</image>
-			<url>http://www.zzzz.com/</url>
-		</item>
-		<item>
-			<image>slideshow/1.jpg</image>
-			<url>http://www.xxxx.com/</url>
-		</item>
-		<item>
-			<image>slideshow/2.jpg</image>
-			<url>http://www.yyyy.com/</url>
-		</item>
-	</items>
-</slideshow>
-这里的slideshow/3.jpg是相对路径。
-例如网站地址是：http://www.yoursite.com/，那么实际的图片地址就是：http://www.yoursite.com/slideshow/3.jpg。
+
 
 
 ==END==
