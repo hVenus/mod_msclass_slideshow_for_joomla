@@ -3,8 +3,8 @@ mod_msclass_slideshow_for_joomla
 这是一个用于joomla!的前台图片轮播/滚动模块
 
 特点：
-*使用MSClass.js做为js库，原生的js代码，无需jQuery,Mootools等js库支持。\r\n
-*可自行设置所有参数。\r\n
+*使用MSClass.js做为js库，原生的js代码，无需jQuery,Mootools等js库支持。<br />
+*可自行设置所有参数。<br/>
 
 
 System request: joomla 2.5 and up.
