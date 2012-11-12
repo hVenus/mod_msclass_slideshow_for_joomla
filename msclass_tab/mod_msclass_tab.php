@@ -16,15 +16,15 @@ $timer = $params->get('timer');
 $delay_time = $params->get('delayTime');
 $wait_time = $params->get('waitTime');
 $scroll_step = $params->get('scrollStep');
-$auto_start = $params->get('auto_start');
+$auto_start = $params->get('AutoStart');
 $tab_event = $params->get('TabEvent');
 $switch_type = $params->get('switchType');
 
-$items = ModMsclassHelper::getItems($params);
+$items = ModMsclassTabHelper::getItems($params);
 
 if(!defined("MSCLASS_LIB")){
-    ModMsclassHelper::loadMediaFiles( $params, $module );
+    ModMsclassTabHelper::loadMediaFiles( $params, $module );
     define('MSCLASS_LIB', true);
 }
 
-require JModuleHelper::getLayoutPath('mod_msclass', $params->get('layout', 'default'));
+require JModuleHelper::getLayoutPath('mod_msclass_tab', $params->get('layout', 'default'));
