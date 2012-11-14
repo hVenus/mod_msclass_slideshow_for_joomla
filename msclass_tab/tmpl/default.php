@@ -8,21 +8,21 @@
 </div>
 <?php else:?>
 <style type="text/css">
-    DL,DT,DD,UL{margin:0;padding:0;}
+    #<?php echo $_msclass_id;?> DL, #<?php echo $_msclass_id;?> DT,#<?php echo $_msclass_id;?> DD,#<?php echo $_msclass_id;?> UL{margin:0;padding:0;}
 
-    A:link {VERTICAL-ALIGN: baseline; TEXT-DECORATION: none}
-    A:visited {VERTICAL-ALIGN: baseline; TEXT-DECORATION: none}
-    A:hover {TEXT-DECORATION: underline}
-    A:link {COLOR: #133db6}
-    A:visited {COLOR: #133db6}
-    A:hover {COLOR: #133db6}
-
+    #<?php echo $_msclass_id;?> A:link {VERTICAL-ALIGN: baseline; TEXT-DECORATION: none}
+    #<?php echo $_msclass_id;?> A:visited {VERTICAL-ALIGN: baseline; TEXT-DECORATION: none}
+    #<?php echo $_msclass_id;?> A:hover {TEXT-DECORATION: underline}
+    #<?php echo $_msclass_id;?> A:link {COLOR: #133db6}
+    #<?php echo $_msclass_id;?> A:visited {COLOR: #133db6}
+    #<?php echo $_msclass_id;?> A:hover {COLOR: #133db6}
+    #<?php echo $_msclass_id;?> h3 {width:auto;}
 
     #<?php echo $_msclass_id;?> {FLOAT: left; OVERFLOW: hidden; WIDTH: 570px}
-    #<?php echo $_content_id;?> .show {FLOAT: left; WIDTH: 570px; HEIGHT:172px;overflow:hidden;PADDING-TOP: 6px}
+    #<?php echo $_content_id;?> .show {FLOAT: left; WIDTH: 550px; HEIGHT:172px;overflow:hidden;PADDING-TOP: 6px}
     #<?php echo $_content_id;?> .pic {PADDING-LEFT: 6px; FLOAT: left}
     #<?php echo $_content_id;?> .pic IMG {BORDER-RIGHT: #e4e4e4 1px solid; BORDER-TOP: #e4e4e4 1px solid; BORDER-LEFT: #e4e4e4 1px solid; WIDTH: 213px; BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 170px}
-    #<?php echo $_content_id;?> .txt {PADDING-LEFT: 17px; FLOAT: left; WIDTH: 330px; COLOR: #444}
+    #<?php echo $_content_id;?> .txt {PADDING-LEFT: 17px; FLOAT: left; WIDTH: 280px; COLOR: #444}
     #<?php echo $_content_id;?> .hd H3 {FONT-SIZE: 0px; FLOAT: left; PADDING-TOP: 5px}
     #<?php echo $_content_id;?> .hd A {FLOAT: right;font-size:14px;}
     #<?php echo $_content_id;?> .hd .time {PADDING-LEFT: 7px; FLOAT: left; COLOR: #888; PADDING-TOP: 5px;font-size:12px;}
@@ -38,7 +38,7 @@
     #<?php echo $_tab_id;?> .active {PADDING-LEFT: 24px; BORDER-LEFT: #91d550 5px solid; BACKGROUND-COLOR: #e6f4d0;}
 
 </style>
-<div style="height:182px;width:790px;border:5px solid #91d550;PADDING-RIGHT: 0px; PADDING-LEFT: 3px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; PADDING-TOP: 0px;">
+<div style="height:182px;width:750px;border:5px solid #91d550;PADDING-RIGHT: 0px; PADDING-LEFT: 3px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; PADDING-TOP: 0px;">
     <div id="<?php echo $_msclass_id;?>" class="msclass-wrap">
         <ul id="<?php echo $_content_id;?>" class="msclass-content">
             <?php foreach($items as $item):?>
@@ -53,14 +53,26 @@
                         <h3>
                             <img height="17" alt="精彩推荐" src="<?php echo JURI::root(true). '/modules/'.$module->module.'/assets/recommand.png';?>" width="59">
                         </h3>
-                        <span class="time">2011.05.11</span>
-                        <a href="<?php echo $item->url;?>">更多</a>
+                        <span class="time"><?php echo $item->industry;?></span>
+                        <a href="<?php echo $item->url;?>" target="<?php echo $_target;?>">更多</a>
                     </div>
                     <dl class="bd">
-                        <dt><A class="title" href="javascript:void(0)"><?php $item->title;?></A></dt>
+                        <dt><A class="title" href="<?php echo $item->url;?>"  target="<?php echo $_target;?>"><?php  echo $item->title;?></A></dt>
                         <dd>
-                            <div class="tab-li-desc"><?php $item->desc;?></div>
-                            <div class="tab-li-keywords"><?php $item->keywords;?></div>
+                            <div class="tab-li-desc">
+                                <?php if(mb_strlen($item->desc)>$limit_desc):?>
+                                <?php echo mb_substr($item->desc, 0, $limit_desc).'...';?>
+                                <?php else:?>
+                                <?php echo $item->desc;?>
+                                <?php endif;?>
+                            </div>
+                            <div class="tab-li-keywords">
+                                <?php if(mb_strlen($item->keywords)>$limit_keywords):?>
+                                <?php echo mb_substr($item->keywords, 0, $limit_keywords).'...';?>
+                                <?php else:?>
+                                <?php echo $item->keywords;?>
+                                <?php endif;?>
+                            </div>
                         </dd>
                     </dl>
                 </div>

@@ -22,11 +22,11 @@ $switch_type = $params->get('switchType');
 $limit_desc = $params->get('limit_desc');
 $limit_keywords = $params->get('limit_keywords');
 
-$items = ModMsclassTabHelper::getItems($params);
+$items = ModMsclassMarqueehHelper::getItems($params);
 
 if(!defined("MSCLASS_LIB")){
-    ModMsclassTabHelper::loadMediaFiles( $params, $module );
+    ModMsclassMarqueehHelper::loadMediaFiles( $params, $module );
     define('MSCLASS_LIB', true);
 }
 
-require JModuleHelper::getLayoutPath('mod_msclass_tab', $params->get('layout', 'default'));
+require JModuleHelper::getLayoutPath('mod_msclass_marqueeh', $params->get('layout', 'default'));

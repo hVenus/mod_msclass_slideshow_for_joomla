@@ -26,75 +26,40 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mod_msclass.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mod_msclass.php">
+      <file leaf-file-name="mod_msclass_marqueeh.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="708" selection-end="720" vertical-scroll-proportion="-13.793103">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmpl/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="40" selection-start="7349" selection-end="7349" vertical-scroll-proportion="-16.551723">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mod_msclass_tab.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="88" selection-start="7213" selection-end="7213" vertical-scroll-proportion="-48.41379">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mod_msclass_tab.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="48" selection-start="799" selection-end="799" vertical-scroll-proportion="-15.172414">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helper.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msclass_tab/helper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="96" selection-start="627" selection-end="693" vertical-scroll-proportion="-15.172414">
+            <state line="16" column="34" selection-start="708" selection-end="708" vertical-scroll-proportion="97.10345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="default.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/msclass_tab/tmpl/default.php">
+        <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="87" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.5771144">
+            <state line="21" column="46" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.52238804">
               <folding>
-                <element signature="e#2388#2544#0" expanded="true" />
+                <element signature="e#742#844#0" expanded="true" />
+                <element signature="e#914#1065#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="helper.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helper.php">
+        <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="1" selection-start="806" selection-end="806" vertical-scroll-proportion="-17.241379">
+            <state line="3" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="-2.0689654">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mod_msclass.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mod_msclass.xml">
+      <file leaf-file-name="mod_msclass_marqueeh.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="39" selection-start="4562" selection-end="4572" vertical-scroll-proportion="-9.655172">
+            <state line="31" column="58" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-21.37931">
               <folding />
             </state>
           </provider>
@@ -121,6 +86,10 @@
         <option value="$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml" />
         <option value="$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php" />
         <option value="$PROJECT_DIR$/msclass_tab/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/helper.php" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php" />
       </list>
     </option>
   </component>
@@ -186,7 +155,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="msclass_tab" />
+              <option name="myItemId" value="msclass_marquee_horizontal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,29 +169,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="msclass_tab" />
+              <option name="myItemId" value="msclass_marquee_horizontal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tmpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msclass_tab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,23 +229,23 @@
     <frame x="-4" y="-4" width="1688" height="1028" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -357,13 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mod_msclass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="708" selection-end="720" vertical-scroll-proportion="-13.793103">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mod_msclass.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="119" column="39" selection-start="4562" selection-end="4572" vertical-scroll-proportion="-9.655172">
@@ -371,39 +315,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmpl/default.php">
+    <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="40" selection-start="7349" selection-end="7349" vertical-scroll-proportion="-16.551723">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="88" selection-start="7213" selection-end="7213" vertical-scroll-proportion="-48.41379">
+        <state line="6" column="8" selection-start="147" selection-end="155" vertical-scroll-proportion="-4.137931">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msclass_tab/helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="96" selection-start="627" selection-end="693" vertical-scroll-proportion="-15.172414">
+        <state line="7" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="-4.827586">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php">
+    <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="799" selection-end="799" vertical-scroll-proportion="-15.172414">
+        <state line="168" column="34" selection-start="6615" selection-end="6615" vertical-scroll-proportion="0.073383085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="40" selection-start="7349" selection-end="7349" vertical-scroll-proportion="0.5970149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_msclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="708" selection-end="720" vertical-scroll-proportion="0.48959607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="-2.0689654">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msclass_tab/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="87" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.5771144">
+        <state line="59" column="75" selection-start="3907" selection-end="3907" vertical-scroll-proportion="-0.28233832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="34" selection-start="708" selection-end="708" vertical-scroll-proportion="97.10345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="58" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-21.37931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="46" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.52238804">
           <folding>
-            <element signature="e#2388#2544#0" expanded="true" />
+            <element signature="e#742#844#0" expanded="true" />
+            <element signature="e#914#1065#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install type="module" version="2.5.0" client="site" method="upgrade">
     <!-- Name of the Module -->
-    <name>MOD_MSCLASS_TAB</name>
+    <name>MOD_MSCLASS_MARQUEEH</name>
     <author>hVenus</author>
     <creationDate>2012-09-19</creationDate>
     <copyright>All rights reserved.</copyright>
@@ -9,18 +9,18 @@
     <authorEmail>kevin@fm618.com</authorEmail>
     <authorUrl>www.fm618.com</authorUrl>
     <version>0.0.2</version>
-    <description>Tab图文切换。</description>
+    <description>MSClass图片横向滚动。</description>
     <files>
-        <filename module="mod_msclass_tab">mod_msclass_tab.php</filename>
+        <filename module="mod_msclass_marqueeh">mod_msclass_marqueeh.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
         <filename>tmpl/index.html</filename>
-        <folder module="mod_msclass_tab">assets</folder>
+        <folder module="mod_msclass_marqueeh">assets</folder>
     </files>
 
     <languages>
-        <language tag="en-GB">en-GB.mod_msclass_tab.ini</language>
+        <language tag="en-GB">en-GB.mod_msclass_marqueeh.ini</language>
     </languages>
 
     <config>
@@ -36,14 +36,14 @@
                         name="slideshow_width"
                         type="text"
                         size="6"
-                        default="320"
+                        default="550"
                         label="宽度"
                         description="设置slideshow区域的宽度。" />
                 <field
                         name="slideshow_height"
                         type="text"
                         size="6"
-                        default="240"
+                        default="30"
                         label="高度"
                         description="设置slideshow区域的高度" />
                 <field
@@ -64,7 +64,7 @@
 
                 <field name="direction"
                        type="list"
-                       default="0"
+                       default="2"
                        label="滚动方向"
                        description="滚动方向(默认为0向上滚动) 值:上，下，左，右，上下交替，左右交替" >
                     <option value="0">上</option>
@@ -77,7 +77,7 @@
 
                 <field name="step"
                        type="text"
-                       default="0.2"
+                       default="1"
                        label="滚动的步长"
                        description="滚动的步长(数值越大,滚动越快,小于1切换为缓动。若为数组[0.5,20]形式，则可设置Tween的缓动类别,0.5为系数，20为缓动类别)" />
 
@@ -101,7 +101,7 @@
 
                 <field name="delayTime"
                        type="text"
-                       default="5000"
+                       default="0"
                        label="间歇停顿延迟时间"
                        description="间歇停顿延迟时间(默认为0不停顿,1000=1秒)" />
 
@@ -119,25 +119,25 @@
 
                 <field name="switchType"
                        type="text"
-                       default="2"
+                       default="0"
                        label="轮显类型"
                        description="轮显类型(默认为0滚动,可选值1切入,2渐显)" />
 
                 <field name="hiddenID"
                        type="text"
-                       default=""
+                       default="['logobox']"
                        label="隐藏区域ID"
                        description="隐藏区域ID(可选,如果隐藏区域只有一层，可以用'hiddenID'的形式，如果多层，请用数组['hiddenID1','hiddenID2']的形式全包含进去)" />
 
                 <field name="MSClassID"
                        type="text"
-                       default="ms_class_1"
+                       default="logobox"
                        label="容器ID"
                        description="容器ID" />
 
                 <field name="ContentID"
                        type="text"
-                       default="ms_content"
+                       default="logocontent"
                        label="内容区域ID"
                        description="针对DIV+CSS的应用，属显示容器内的内容区域ID，即实际内容容器UL或DL的ID。" />
 
@@ -177,22 +177,13 @@
                        label="执行上一次滚动的元素ID"
                        description="执行上一次滚动的元素ID，针对间歇滚动有效" />
 
-                <!--field name="AutoStart"
+                <field name="AutoStart"
                        type="text"
-                       default="0"
+                       default="1"
                        label="自动执行"
-                       description="针对对象赋值设置是否使应用自动执行(省去Start步骤)。可选值：0,1,true,false" /-->
-                <field name="limit_desc"
-                       type="text"
-                       default="10"
-                       label="简介显示的字符数"
-                       description="超过此大小的字符将会被截断." />
+                       description="针对对象赋值设置是否使应用自动执行(省去Start步骤)。可选值：0,1,true,false" />
 
-                <field name="limit_keywords"
-                       type="text"
-                       default="10"
-                       label="关键字显示的字符数"
-                       description="超过此大小的字符将会被截断." />
+
 
             </fieldset>
         </fields>
