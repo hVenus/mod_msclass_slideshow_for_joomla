@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a2a6df7-b8ad-4f35-af0b-5ea7872ffa99" name="Default" comment="清理目录" />
+    <list default="true" id="5a2a6df7-b8ad-4f35-af0b-5ea7872ffa99" name="Default" comment="清理目录">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php" afterPath="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml" afterPath="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php" afterPath="$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php" afterPath="$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml" afterPath="$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/msclass_tab/tmpl/default.php" afterPath="$PROJECT_DIR$/msclass_tab/tmpl/default.php" />
+    </list>
     <ignored path="mod_msclass_slideshow_for_joomla.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,26 +27,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="default.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="31" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.62189054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msclass.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/assets/msclass.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -56,14 +45,14 @@
         <option value="$PROJECT_DIR$/mod_msclass.php" />
         <option value="$PROJECT_DIR$/tmpl/default.php" />
         <option value="$PROJECT_DIR$/msclass_tab/helper.php" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/helper.php" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/assets/msclass.css" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php" />
+        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php" />
         <option value="$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml" />
         <option value="$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php" />
         <option value="$PROJECT_DIR$/msclass_tab/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/helper.php" />
-        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml" />
-        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php" />
-        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/assets/msclass.css" />
-        <option value="$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php" />
       </list>
     </option>
   </component>
@@ -115,6 +104,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msclass_tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msclass_tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_msclass_slideshow_for_joomla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msclass_marquee_horizontal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,55 +289,30 @@
     <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="46" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#827#981#0" expanded="true" />
+            <element signature="e#1051#1202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" />
+        <state line="3" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="58" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="147" selection-end="155" vertical-scroll-proportion="-4.137931" />
+        <state line="31" column="58" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msclass_tab/helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="-4.827586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="34" selection-start="6615" selection-end="6615" vertical-scroll-proportion="0.073383085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msclass_tab/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="75" selection-start="3907" selection-end="3907" vertical-scroll-proportion="-0.28233832" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="708" selection-end="708" vertical-scroll-proportion="0.024875622">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="0.07343941" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="58" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.75887394" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/assets/msclass.css">
@@ -312,10 +322,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/msclass.source_format.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="-2.0689654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.62189054">
+        <state line="39" column="37" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.8208955">
+          <folding>
+            <element signature="e#827#981#0" expanded="true" />
+            <element signature="e#1051#1202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="52" selection-start="1863" selection-end="2897" vertical-scroll-proportion="-25.51724">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_marquee_horizontal/mod_msclass_marqueeh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="8" selection-start="345" selection-end="345" vertical-scroll-proportion="-6.8965516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="39" selection-start="3240" selection-end="3240" vertical-scroll-proportion="-20.827587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_tab/mod_msclass_tab.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="52" selection-start="291" selection-end="291" vertical-scroll-proportion="-3.4482758">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msclass_tab/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="72" selection-start="4749" selection-end="4749" vertical-scroll-proportion="0.5522388">
+          <folding>
+            <element signature="e#2880#3073#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -18,11 +18,11 @@
     #<?php echo $_msclass_id;?> A:hover {COLOR: #133db6}
     #<?php echo $_msclass_id;?> h3 {width:auto;}
 
-    #<?php echo $_msclass_id;?> {FLOAT: left; OVERFLOW: hidden; WIDTH: 570px}
-    #<?php echo $_content_id;?> .show {FLOAT: left; WIDTH: 550px; HEIGHT:172px;overflow:hidden;PADDING-TOP: 6px}
+    #<?php echo $_msclass_id;?> {FLOAT: left; OVERFLOW: hidden; WIDTH: <?php echo $content_width;?>px}
+    #<?php echo $_content_id;?> .show {FLOAT: left; WIDTH: <?php echo $content_width;?>px; HEIGHT:172px;overflow:hidden;PADDING-TOP: 6px}
     #<?php echo $_content_id;?> .pic {PADDING-LEFT: 6px; FLOAT: left}
     #<?php echo $_content_id;?> .pic IMG {BORDER-RIGHT: #e4e4e4 1px solid; BORDER-TOP: #e4e4e4 1px solid; BORDER-LEFT: #e4e4e4 1px solid; WIDTH: 213px; BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 170px}
-    #<?php echo $_content_id;?> .txt {PADDING-LEFT: 17px; FLOAT: left; WIDTH: 280px; COLOR: #444}
+    #<?php echo $_content_id;?> .txt {PADDING-LEFT: 17px; FLOAT: left; WIDTH: 460px; COLOR: #444}
     #<?php echo $_content_id;?> .hd H3 {FONT-SIZE: 0px; FLOAT: left; PADDING-TOP: 5px}
     #<?php echo $_content_id;?> .hd A {FLOAT: right;font-size:14px;}
     #<?php echo $_content_id;?> .hd .time {PADDING-LEFT: 7px; FLOAT: left; COLOR: #888; PADDING-TOP: 5px;font-size:12px;}
@@ -31,14 +31,15 @@
     #<?php echo $_content_id;?> .bd DD {PADDING-LEFT: 10px; FONT-SIZE: 14px;BACKGROUND: url(images/bg.gif) no-repeat -85px -251px; LINE-HEIGHT: 25px}
     #<?php echo $_content_id;?> .bd A.title {FONT-SIZE: 20px; COLOR: #333; FONT-FAMILY: '黑体'}
     #<?php echo $_content_id;?> .answerer {PADDING-LEFT: 10px; FONT-SIZE: 12px; COLOR: #666}
+    #<?php echo $_content_id;?> .bd DD .tab-li-keywords{color: #909090;font-style: italic;}
 
-    #<?php echo $_tab_id;?> {FLOAT: right; BORDER-LEFT: #d6efc7 1px solid; WIDTH: 194px}
+    #<?php echo $_tab_id;?> {FLOAT: right; BORDER-LEFT: #d6efc7 1px solid; WIDTH: <?php echo $tab_width;?>px}
     #<?php echo $_tab_id;?> LI {height:21px;PADDING-RIGHT: 0px;line-height:25px; PADDING-LEFT: 29px; FONT-SIZE: 14px; PADDING-BOTTOM: 7px; CURSOR: pointer; COLOR: #327b00; PADDING-TOP: 8px; BORDER-BOTTOM: #d6efc7 1px solid; ZOOM: 1}
     #<?php echo $_tab_id;?> LI:hover {BACKGROUND-COLOR: #e6f4d0}
     #<?php echo $_tab_id;?> .active {PADDING-LEFT: 24px; BORDER-LEFT: #91d550 5px solid; BACKGROUND-COLOR: #e6f4d0;}
 
 </style>
-<div style="height:182px;width:750px;border:5px solid #91d550;PADDING-RIGHT: 0px; PADDING-LEFT: 3px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; PADDING-TOP: 0px;">
+<div style="height:<?php echo $_height;?>px;width:<?php echo $_width;?>px;border:1px solid #91d550;PADDING-RIGHT: 0px; PADDING-LEFT: 3px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; PADDING-TOP: 0px;">
     <div id="<?php echo $_msclass_id;?>" class="msclass-wrap">
         <ul id="<?php echo $_content_id;?>" class="msclass-content">
             <?php foreach($items as $item):?>
@@ -67,8 +68,8 @@
                                 <?php endif;?>
                             </div>
                             <div class="tab-li-keywords">
-                                <?php if(mb_strlen($item->keywords)>$limit_keywords):?>
-                                <?php echo mb_substr($item->keywords, 0, $limit_keywords).'...';?>
+                                <?php if(mb_strlen(trim($item->keywords))>$limit_keywords):?>
+                                <?php echo mb_substr(trim($item->keywords), 0, $limit_keywords).'...';?>
                                 <?php else:?>
                                 <?php echo $item->keywords;?>
                                 <?php endif;?>
@@ -97,8 +98,8 @@
         TabEvent : "<?php echo $tab_event;?>",
 		Direction : <?php echo $direction;?>,
 		Step : <?php echo $step;?>,
-		Width : <?php echo $_width;?>,
-		Height : <?php echo $_height;?>,
+		Width : <?php echo $content_width;?>,
+		Height : <?php echo $content_height;?>,
 		Timer : <?php echo $timer;?>,
 		DelayTime : <?php echo $delay_time;?>,
 		WaitTime : <?php echo $wait_time;?>,

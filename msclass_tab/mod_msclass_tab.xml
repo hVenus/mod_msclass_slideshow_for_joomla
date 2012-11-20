@@ -47,6 +47,48 @@
                         label="高度"
                         description="设置slideshow区域的高度" />
                 <field
+                        name="wrapper_width"
+                        type="text"
+                        size="6"
+                        default="700"
+                        label="容器宽度"
+                        description="设置容器的宽度。" />
+                <field
+                        name="wrapper_height"
+                        type="text"
+                        size="6"
+                        default="30"
+                        label="容器高度"
+                        description="设置容器的高度" />
+                <field
+                        name="content_width"
+                        type="text"
+                        size="6"
+                        default="70"
+                        label="CONTENT宽度"
+                        description="设置CONTENT的宽度,即左侧内容区域宽度。" />
+                <field
+                        name="content_height"
+                        type="text"
+                        size="6"
+                        default="30"
+                        label="CONTENT高度"
+                        description="设置CONTENT的高度，即左侧内容区域高度。" />
+                <field
+                        name="tab_width"
+                        type="text"
+                        size="6"
+                        default="70"
+                        label="TAB区域的宽度"
+                        description="设置TAB区域的宽度,即右侧TAB区域宽度。" />
+                <field
+                        name="tab_item_height"
+                        type="text"
+                        size="6"
+                        default="30"
+                        label="TAB项的高度"
+                        description="设置TAB中每一项的高度。" />
+                <field
                         name="url_target"
                         type="list"
                         default="_blank"

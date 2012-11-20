@@ -5,8 +5,14 @@ require_once(dirname(__FILE__).DS.'helper.php');
 
 // get params
 $_target = $params->get('url_target');
-$_width = (int)$params->get('slideshow_width');
-$_height = (int)$params->get('slideshow_height');
+$_width = (int)$params->get('slideshow_width', 750);
+$_height = (int)$params->get('slideshow_height', 182);
+$wrapper_width = (int)$params->get('wrapper_width', 570);
+$wrapper_height = (int)$params->get('wrapper_height', 172);
+$content_width = (int)$params->get('content_width', 550);
+$content_height = (int)$params->get('content_height', 172);
+$tab_width = (int)$params->get('tab_width', 194);
+$tab_item_height = (int)$params->get('tab_item_height', 21);
 $_msclass_id = $params->get('MSClassID');
 $_content_id = $params->get('ContentID');
 $_tab_id = $params->get('TabID');

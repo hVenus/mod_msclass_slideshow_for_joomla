@@ -43,9 +43,37 @@
                         name="slideshow_height"
                         type="text"
                         size="6"
-                        default="30"
+                        default="40"
                         label="高度"
                         description="设置slideshow区域的高度" />
+                <field
+                        name="wrapper_width"
+                        type="text"
+                        size="6"
+                        default="700"
+                        label="容器宽度"
+                        description="设置容器的宽度。" />
+                <field
+                        name="wrapper_height"
+                        type="text"
+                        size="6"
+                        default="30"
+                        label="容器高度"
+                        description="设置容器的高度" />
+                <field
+                        name="logo_width"
+                        type="text"
+                        size="6"
+                        default="70"
+                        label="LOGO宽度"
+                        description="设置LOGO图片的宽度。" />
+                <field
+                        name="logo_height"
+                        type="text"
+                        size="6"
+                        default="30"
+                        label="LOGO高度"
+                        description="设置LOGO图片的高度" />
                 <field
                         name="url_target"
                         type="list"
