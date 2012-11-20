@@ -9,7 +9,7 @@
 <?php else:?>
 <style type="text/css">
 
-    .hot-banner{width:753px;height:41px;border-left:1px solid #d8d8d8;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background-color:#f6f6f6;overflow:hidden;}
+    .hot-banner{width:953px;height:41px;border-left:1px solid #d8d8d8;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background-color:#f6f6f6;overflow:hidden;}
     .hot-banner .hot-banner-wrapper{margin-top:5px;margin-left:15px;}
     .hot-banner .hot-banner-wrapper a{float:left;display:block;overflow:hidden;width:70px;height:30px;margin-right:8px;}
 
